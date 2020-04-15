@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="anarenk">#773566</color>
+    <color name="button">#b3caae</color>
+    <color name="text">#66a366</color>
+    <color name="red">#f33</color>
+    <color name="blue">#3ff</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="darkred">#990000</color>
+    <color name="home">#C9379D</color>
+    <color name="activity">#5B37B7</color>
+    <color name="favorites">#E6A919</color>
+    <color name="settings">#1994AA</color>
+    <color name="yuksekrisk">#C70039</color>
+    <color name="ortayuksekrisk">#FF5733</color>
+    <color name="ortarisk">#FFC300</color>
+    <color name="ortadusukrisk">#DAF7A6</color>
+    <color name="dusukrisk">#27AE60</color>
+    <color name="aktifvaka">#27AE60</color>
+    <color name="toplamvaka">#B5B5B5</color>
+    <color name="toplamolum">#000000</color>
+    <color name="yenivaka">#FFC300</color>
+    <color name="yeniolum">#C70039</color>
+</resources>

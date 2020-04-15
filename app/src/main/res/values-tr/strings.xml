@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">covidapp</string>
+    <string name="hintname">Ad Soyad</string>
+
+    <string name="dusuk_riskli">Düşük Riskli</string>
+    <string name="orta_dusuk_riskli">Orta-Düşük Riskli</string>
+    <string name="orta_riskli" >Orta Riskli</string>
+    <string name="orta_yuksek_riskli" >Orta-Yüksek Riskli</string>
+    <string name="yuksek_riskli" >Yüksek Riskli</string>
+    <string name="bilinmiyor">Bilinmiyor</string>
+
+    <string name="gonullu_degil">Gönüllü Değilsiniz</string>
+    <string name="textgonul">Gönüllüsünüz :</string>
+    <string name="textgonuldiger">Vatandaş</string>
+
+    <string name="pozitif" >Pozitif</string>
+    <string name="negatif" >Negatif</string>
+
+    <string name="item_saglik">Sağlık Sektörü</string>
+    <string name="item_milli">Kuruluşlar (Asker/Polis)</string>
+    <string name="item_guvenlik">Güvenlik Sektörü</string>
+    <string name="item_diger">Diğer</string>
+
+    <string name="occarea">Meslek Alanı</string>
+
+
+    <string name="okay">Tamam</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="exit">Çıkış</string>
+    <string name="betest">Test</string>
+    <string name="thanks">Teşekkürler</string>
+    <string name="bevoluntary">Gönüllü Ol</string>
+    <string name="gonuldiatext">Salgın için bölgemde ihtiyaç duyulduğunda gönüllü olarak Milli Sağlık kuruluşlarına yardım etmek istiyorum.</string>
+    <string name="gonuldiatext2">Yukarıdaki Listeden Meslek Alanınızı Seçin</string>
+    <string name="notnow">Şimdi Değil</string>
+    <string name="warning">Uyarı</string>
+    <string name="warmeslek">Lütfen, Önce Meslek Alanını Seçin</string>
+    <string name="gonulgiveup">Zaten Gönüllü Olmuşsunuz. Gönüllü olmaktan vazgeçmek mi istiyorsunuz ?</string>
+    <string name="gonulgiveupmsg">"Artık Gönüllü Değilsiniz.</string>
+    <string name="entertextresult">Lütfen, Sağlık kuruluşlarınızda test yaptırdıysanız test sonucunuzu girin</string>
+    <string name="enteredtextresult">Test sonucunuz girilmiştir. Yardımcı Olduğunuz için Teşekkür ederiz.</string>
+    <string name="testgiveup">Test Sonucunuzu zaten girmişsiniz. Sonucunuzu iptal etmek istiyor musunuz ? Risk Grubunu Öğren Testine yönlendirileceksiniz.</string>
+    <string name="testchanged">"Test sonucunuz değiştirildi :"</string>
+
+    <string name="loading">Loading..</string>
+
+    <string name="statrisk">RİSKLER</string>
+    <string name="statcase">VAKALAR</string>
+    <string name="coronavirus">KoronaVirüs \n</string>
+
+    <string name="profilabout">HAKKINDA</string>
+    <string name="profilpage">PROFİL</string>
+
+    <string name="countries">Ülkeler</string>
+    <string name="cities">Şehirler</string>
+
+    <string name="warmap">Aradığınız yer bulunamadı.</string>
+    <string name="search">Ara...</string>
+    <string name="risktitle">Risk Grubunu Öğren</string>
+    <string name="pre">Önceki Soru</string>
+    <string name="often">Sık Sık</string>
+    <string name="sometimes">Bazen</string>
+    <string name="contin">Devam</string>
+    <string name="rarely">Nadir/Hayır</string>
+    <string name="result">Sonuc</string>
+    <string name="inforiskgr">Risk Grubunuz</string>
+    <string name="riskmsg1">"Bu test vermiş olduğunuz yanıtlara göre risk değerlendirmesi yapmaktadır. \n Tıbbi bir tanı yerine geçmez.</string>
+    <string name="riskmsg2">Lütfen verimli sonuç alabilmek için soruları okuyup kendinize uygun olarak yanıtlayınız.</string>
+
+
+    <string name="infotest">Test Sonucu</string>
+    <string name="map">Salgın Haritası</string>
+    <string name="infomap">Salgın Haritasını Görmek İstiyorum</string>
+
+    <string name="help">Yardım</string>
+    <string name="stat">İstatistikler</string>
+    <string name="infostat">Risk Grupları istatisklerini görmek istiyorum</string>
+    <string name="profil">Profil Sayfası</string>
+    <string name="infoprofil">Profil Sayfamı görmek istiyorum</string>
+    <string name="firstinforisk">Teste katılarak, risk grubumu öğrenmek istiyorum</string>
+
+    <string name="logininfo">Risk grubunu öğren, Salgın haritasını görüntüle ve Bölge bölge analizleri Gör</string>
+    <string name="register">Kayıt Ol</string>
+
+    <string name="GLOBAL">Tüm Ülkeler</string>
+    <string name="GENERAL">Tüm Şehirler</string>
+
+    <string name="share">Paylaş</string>
+    <string name="todaycases">Bugün Vaka</string>
+    <string name="todaydeaths">Bugün Ölüm</string>
+    <string name="cases">Toplam Vaka</string>
+    <string name="deaths">Toplam Ölüm</string>
+    <string name="recoveredcases">İyileşen</string>
+    <string name="activecases">Aktif Vaka</string>
+
+    <string name="checkname">Lütfen, Adınızı ve Soyadınızı girin.</string>
+    <string name="checkcon">Lütfen, İnternet Bağlantınızı Kontrol Edin</string>
+
+    <string name="instagram">Geliştirici</string>
+    <string name="playstore">Play Store\'de uygulamayı puanla</string>
+    <string name="contact">Bizimle İletişime Geç</string>
+    <string name="desciprtion">"KoronaVirus Takip Aplikasyonu"</string>
+
+
+    <string name="virusmsg1">Virusün size bulaşmış olma ihtimali çok düşük."</string>
+    <string name="virusmsg2">Virusün size bulaşmış olma ihtimali çok yüksek. Koronavirüs riskine karşı maske takıp bir sağlık kuruluşuna başvurmanızı öneriyoruz.</string>
+    <string name="virusmsg3">Virusün size bulaşmış olma ihtimali var. Koronavirüs riskine karşı maske takıp bir sağlık kuruluşuna başvurmanızı öneriyoruz.</string>
+    <string name="virusmsg4">Virusün size bulaşmış olma ihtimali yarı yarıya. Her ihitmale karşı, Koronavirüs riskine karşı maske takıp bir sağlık kuruluşuna başvurmanızı öneriyoruz.</string>
+    <string name="virusmsg5">Virusün size bulaşmış olma ihtimali düşük.</string>
+
+</resources>

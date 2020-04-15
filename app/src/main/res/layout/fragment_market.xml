@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MarketFragment">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_wave">
+
+    </View>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginHorizontal="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_profile"
+                android:text="@string/profilpage"
+                android:layout_weight="1"
+                android:textColor="@color/anarenk"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/background_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <Button
+                android:id="@+id/btn_about"
+                android:text="@string/profilabout"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_bold"
+                android:textStyle="bold"
+                android:textColor="@color/anarenk"
+                android:background="@drawable/background_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:visibility="visible"
+                android:id="@+id/rl_about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:id="@+id/container_abopro"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

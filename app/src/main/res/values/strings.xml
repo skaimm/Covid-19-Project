@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">covidapp</string>
+
+    <string name="hintname">Name Surname</string>
+    <string name="share">Share</string>
+
+    <string name="facebook_application_id" translatable="false">210490790261285</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb210490790261285</string>
+
+    <string name="db_dusuk_riskli" translatable="false">Düşük Riskli</string>
+    <string name="db_orta_dusuk_riskli" translatable="false">Orta-Düşük Riskli</string>
+    <string name="db_orta_riskli" translatable="false">Orta Riskli</string>
+    <string name="db_orta_yuksek_riskli" translatable="false">Orta-Yüksek Riskli</string>
+    <string name="db_yuksek_riskli" translatable="false">Yüksek Riskli</string>
+
+    <string name="db_bilinmiyor" translatable="false">Bilinmiyor</string>
+
+    <string name="db_pozitif" translatable="false" >Pozitif</string>
+    <string name="db_negatif" translatable="false">Negatif</string>
+
+    <string name="db_diger" translatable="false">Diğer</string>
+
+    <string name="dusuk_riskli">Low-Risk Groups</string>"
+    <string name="orta_dusuk_riskli">Middle-Low Risk Groups</string>
+    <string name="orta_riskli" >Middle-Risk Groups</string>
+    <string name="orta_yuksek_riskli" >Middle-High Risk Groups</string>
+    <string name="yuksek_riskli" >High-Risk Groups</string>
+    <string name="bilinmiyor">Unknown</string>
+
+    <string name="pozitif" >Positive</string>
+    <string name="negatif" >Negative</string>
+
+    <string name="gonullu_degil">You are not a volunteer</string>
+
+    <string name="textgonul">You are a volunteer : </string>
+    <string name="textgonuldiger">Citizen</string>
+
+    <string name="db_users" translatable="false">users</string>
+    <string name="db_location" translatable="false">location</string>
+    <string name="field_lat" translatable="false">lat</string>
+    <string name="field_lng" translatable="false">lng</string>
+    <string name="field_country" translatable="false">country</string>
+    <string name="field_city" translatable="false">city</string>
+    <string name="field_gonul" translatable="false">gonul</string>
+    <string name="field_test" translatable="false">test</string>
+    <string name="field_risk" translatable="false">risk</string>
+
+    <string name="loading">Loading..</string>
+    <string name="occarea">Occupation</string>
+
+    <string name="okay">Okay</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="betest">Test</string>
+    <string name="thanks">Thank You</string>
+    <string name="bevoluntary">Be Volunteer</string>
+    <string name="gonuldiatext">I would like to voluntarily help National Health institutions when needed for my outbreak in my region.</string>
+    <string name="gonuldiatext2">Choose your occupation from the list above</string>
+    <string name="notnow">Not now</string>
+    <string name="warning">Warning</string>
+    <string name="warmeslek">Please, Firstly choose your occupation from the list</string>
+    <string name="gonulgiveup">You\'ve already volunteered. Want to stop being volunteer?</string>
+    <string name="gonulgiveupmsg">"You are no longer a volunteer.</string>
+    <string name="entertextresult">Please, Enter your test result if you have taken a test at any Health Institutions</string>
+    <string name="enteredtextresult">Your test result has been entered. Thank you </string>
+    <string name="testgiveup">You have already entered your Test Result. Do you want to cancel your result? You will be directed to the Risk Group Test.</string>
+    <string name="testchanged">" Your test result has been changed :"</string>
+
+    <string name="coronavirus">CoronaVirus \n</string>
+
+    <string name="statrisk">RISK GROUPS</string>
+    <string name="statcase">CASES</string>
+
+    <string name="profilabout">ABOUT</string>
+    <string name="profilpage">PROFILE</string>
+    <string name="infotest">Test Result</string>
+
+    <string name="risktitle">Risk Group Test</string>
+    <string name="pre">Previously</string>
+    <string name="often">Often</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="rarely">Rarely/No</string>
+    <string name="result">Result</string>
+    <string name="contin">Continue</string>
+    <string name="inforiskgr">Your Risk Group</string>
+    <string name="riskmsg1">"This test makes a risk assessment based on the answers you have provided. \n It does not replace a medical diagnosis.</string>
+    <string name="riskmsg2">Please, Read the questions and answer them appropriately for efficient results..</string>
+
+
+    <string name="firstinforisk">I want to learn my risk group by taking the test</string>
+
+    <string name="warmap">The place you are looking for could not be found.</string>
+    <string name="search">Search...</string>
+    <string name="countries">Countries</string>
+    <string name="cities">Cities</string>
+
+    <string name="logininfo">Learn the your risk group, view the epidemic map and analyze region by region</string>
+    <string name="register">Register</string>
+    <string name="help">Help</string>
+    <string name="map">Outbreak Map</string>
+    <string name="infomap">I want to see Outbreak Map</string>
+    <string name="stat">Statistics</string>
+    <string name="infostat">I want to see the Risk Groups statistics</string>
+    <string name="profil">Profile Page</string>
+    <string name="infoprofil">I want to see my Profile Page</string>
+
+
+
+    <string-array name="sorular" formatted="false" translatable="true">
+
+        <item>Son zamanlarda Yüksek Ateşiniz oluyor mu ? (38 ve üzeri)</item>
+        <item>Son zamanlarda Nefes darlığı sıkıntısı yaşıyor musunuz ? </item>
+        <item>Son zamanlarda Kuru ve ya Normal Öksürüğünüz oluyor mu ? </item>
+        <item>Son zamanlarda Göğsünüzde Ağrı veya Baskı Hissediyor musunuz?</item>
+        <item>Son zamanlarda Baş veya Kas ağrılarınız var mı ?</item>
+        <item>Son zamanlarda Halsizlik hiisediyor musunuz ?</item>
+
+        <item>Son zamanlarda Burun Akıntınız ve ya Tıkanıklığınız var mı ?</item>
+        <item>Son zamanalrda İshal,mide bulantısı ve kusma var mı ?</item>
+        <item>Son zamanlarda yeni başlamış belirtiler hissediyor musunuz ? (Ağrılar,Öksürük,Bulantı,Göğüs sıkışması,vb.)</item>
+        <item>Son zamanlarda solunum yolu hastalığı (nezle,grip,zatürre vb.) olan biri ile temasınız oldu mu ?</item>
+        <item>Ellerinizi su ve sabun ile en az 20 saniye yıkıyor musun ? </item>
+        <item>Son zamanlarda kalabalık ortamlarda bulunuyor musunuz ? </item>
+
+
+    </string-array>
+
+    <string-array name="meslek" formatted="false" translatable="true">
+        <item>@string/item_saglik</item>
+        <item>@string/item_milli</item>
+        <item>@string/item_guvenlik</item>
+        <item>@string/item_diger</item>
+
+    </string-array>
+
+    <string name="db_item_saglik" translatable="false">Sağlık Sektörü</string>
+    <string name="db_item_milli" translatable="false">Kuruluşlar (Asker/Polis)</string>
+    <string name="db_item_guvenlik" translatable="false">Güvenlik Sektörü</string>
+    <string name="db_item_diger" translatable="false">Diğer</string>
+
+    <string name="item_saglik">Field of Health</string>
+    <string name="item_milli">Soldier/Police</string>
+    <string name="item_guvenlik">Security</string>
+    <string name="item_diger">Other</string>
+    <string name="GLOBAL">All Countries</string>
+    <string name="GENERAL">All Cities</string>
+    <string name="ISOGLOBAL" translatable="false">ALL</string>
+
+    <string name="todaycases">Today Cases</string>
+    <string name="todaydeaths">Today Deaths</string>
+    <string name="cases">Total Cases</string>
+    <string name="deaths">Total Deaths</string>
+    <string name="recoveredcases">Recovered</string>
+    <string name="activecases">Active Cases</string>
+    <string name="instagram">Developed by</string>
+    <string name="playstore">Rate us on the Play Store</string>
+
+    <string name="checkname">Please, Fill up the Blank</string>
+    <string name="checkcon">Please, Check your internet Connection</string>
+    <string name="contact">Contact us</string>
+    <string name="desciprtion">"CoronaVirus Application"</string>
+
+    <string name="virusmsg1">It is very unlikely that the virus has been transmitted to you.</string>
+    <string name="virusmsg2">It is very likely that the virus has been transmitted to you. We recommend that you wear a mask against coronavirus and apply to a healthcare facility.</string>
+    <string name="virusmsg3">It is likely that the virus has been transmitted to you. We recommend that you wear a mask against coronavirus and apply to a healthcare facility.</string>
+    <string name="virusmsg4">It is likely that the virus has been transmitted to you. We recommend that you wear a mask against any risk of coronavirus and apply to a healthcare facility.</string>
+    <string name="virusmsg5">It is unlikely that the virus has been transmitted to you.</string>
+
+
+
+
+</resources>

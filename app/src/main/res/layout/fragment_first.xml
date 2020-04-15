@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_wave">
+
+    </View>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ic_wave2">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/ll_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginTop="6dp"
+            android:id="@+id/im_pic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/corona"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_koronapp"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/ll_cards"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ll_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_profil"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/ic_browser"
+                            android:padding="10dp"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="bold"
+                            android:text="@string/profil"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:textAlignment="center"
+                            android:text="@string/infoprofil"
+                            android:textColor="@color/toplamvaka"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_stat"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/ic_riskgroup"
+                            android:padding="10dp"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/stat"/>
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="@string/infostat"
+                            android:textColor="@color/toplamvaka"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_map"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/ic_world_financial"
+                            android:padding="10dp"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/map"/>
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="@string/infomap"
+                            android:textColor="@color/toplamvaka"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_risk"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/ic_group"
+                            android:padding="10dp"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/risktitle"/>
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="@string/firstinforisk"
+                            android:textColor="@color/toplamvaka"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentStart="true"
+        android:id="@+id/card_voluntary"
+        android:layout_below="@+id/ll_cards"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_voluntary"
+                android:padding="10dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/bevoluntary"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ll_cards"
+        android:id="@+id/card_test"
+        android:layout_alignParentEnd="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            tools:ignore="UseCompoundDrawables">
+
+
+            <TextView
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/infotest"/>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ic_test"
+                android:padding="10dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/im_info"
+        android:elevation="5dp"
+        android:layout_marginBottom="110dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_help"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
